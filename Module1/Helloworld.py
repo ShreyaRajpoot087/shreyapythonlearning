@@ -1,0 +1,7 @@
+print("Hello World")
+print("Hello")
+print('I\'M am studying python')
+print()
+print('Hello Shreya, I am studying python')
+print('Hello Shreya\nI am studying python')
+print('I\'m learning to become a Python developer!\nI\'m so excited!')
