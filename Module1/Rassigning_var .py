@@ -12,3 +12,4 @@ print(text)
 print('shreya' *5)
 #if you put two number like this there is no longer its number python trated as string#
 print('23' + '23')
+print('23' + '23')
