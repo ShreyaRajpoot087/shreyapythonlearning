@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f765073-757a-4e77-a18f-7dc1c26c020a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonforPCEP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Helloworld.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Rassigning_var .py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/var.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="2f765073-757a-4e77-a18f-7dc1c26c020a" name="Changes" comment="Hi , this is python code">
+      <change afterPath="$PROJECT_DIR$/Control Statement/ifstatement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Control Statement/password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/practiceexp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/typecasting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +24,31 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ShreyaRajpoot087"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1b754505-561d-4548-9166-f2a3a3b3cad4" />
+        <option name="url" value="https://github.com/ShreyaRajpoot087/shreyapythonlearning" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2d0Qu1WsR4E96cKS98mV0HGUfye" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,18 +61,21 @@
   "keyToString": {
     "Python.Helloworld.executor": "Run",
     "Python.Rassigning_var .executor": "Run",
+    "Python.ifstatement.executor": "Run",
     "Python.input.executor": "Run",
     "Python.main.executor": "Run",
     "Python.operators.executor": "Run",
+    "Python.password.executor": "Run",
     "Python.var.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "shreyapython",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,6 +85,30 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="ifstatement" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonforPCEP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (AzureopenAIdemo)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Control Statement" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Control Statement/ifstatement.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonforPCEP" />
       <option name="ENV_FILES" value="" />
@@ -108,8 +148,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709142734786</updated>
-      <workItem from="1709142740295" duration="8377000" />
+      <workItem from="1709142740295" duration="8732000" />
+      <workItem from="1709561860304" duration="10002000" />
     </task>
+    <task id="LOCAL-00001" summary="Hi , this is python code">
+      <option name="closed" value="true" />
+      <created>1709151148180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709151148180</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +187,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hi , this is python code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hi , this is python code" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -154,6 +208,8 @@
     <SUITE FILE_PATH="coverage/pythonforPCEP$Rassigning_var_.coverage" NAME="Rassigning_var  Coverage Results" MODIFIED="1709147933328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module1" />
     <SUITE FILE_PATH="coverage/pythonforPCEP$var.coverage" NAME="var Coverage Results" MODIFIED="1709149228564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module1" />
     <SUITE FILE_PATH="coverage/pythonforPCEP$main.coverage" NAME="main Coverage Results" MODIFIED="1709143361173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonforPCEP$ifstatement.coverage" NAME="ifstatement Coverage Results" MODIFIED="1709580389852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Control Statement" />
     <SUITE FILE_PATH="coverage/pythonforPCEP$Helloworld.coverage" NAME="Helloworld Coverage Results" MODIFIED="1709144435995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module1" />
+    <SUITE FILE_PATH="coverage/pythonforPCEP$password.coverage" NAME="password Coverage Results" MODIFIED="1709586391758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Control Statement" />
   </component>
 </project>
