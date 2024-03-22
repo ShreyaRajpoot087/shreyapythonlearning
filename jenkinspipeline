@@ -1,0 +1,40 @@
+pipeline // CI PROCESS
+{
+   agent any
+   tools {
+   go 'go-1.17'
+   }
+   environment
+   {
+   Go111Module = 'on'
+   }
+   stages
+   {
+    stage('Test')
+    {
+    steps {
+    git ''
+    sh 'go test ./...'
+    }
+    }
+    }
+    //CD PROCESS
+    stages{
+    stage('Dev')
+    {
+    steps
+    {
+    git ''
+    }}
+    stages ('buliding a image')
+    {
+    steps
+    {
+      script {
+      app =docker.build('')
+      }
+      }
+      }
+      }
+
+}

@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f55dcfd-87b2-4e05-872c-451e5d7a25db" name="Changes" comment="this is my first touple and dict module commit">
-      <change afterPath="$PROJECT_DIR$/func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/globalvar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion.py" afterDir="false" />
+    <list default="true" id="7f55dcfd-87b2-4e05-872c-451e5d7a25db" name="Changes" comment="this is my first /// https://leetcode.com/problems/evaluate-reverse-polish-notation/">
+      <change afterPath="$PROJECT_DIR$/cicd_deployment pipeline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkinspipeline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/print.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/dict.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,8 @@
     "Python.func.executor": "Run",
     "Python.globalvar.executor": "Run",
     "Python.list.executor": "Run",
+    "Python.practice.executor": "Run",
+    "Python.print.executor": "Run",
     "Python.recursion.executor": "Run",
     "Python.touple.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -104,7 +105,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709659283287</updated>
-      <workItem from="1709659295069" duration="15630000" />
+      <workItem from="1709659295069" duration="16379000" />
+      <workItem from="1710308330786" duration="3493000" />
+      <workItem from="1711055153776" duration="5108000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first list module commit">
       <option name="closed" value="true" />
@@ -122,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709672530407</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="this is my first my last lecture on python functions">
+      <option name="closed" value="true" />
+      <created>1709745569110</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709745569110</updated>
+    </task>
+    <task id="LOCAL-00004" summary="this is my first /// https://leetcode.com/problems/evaluate-reverse-polish-notation/">
+      <option name="closed" value="true" />
+      <created>1710367161323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710367161323</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +161,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="this is my first list module commit" />
     <MESSAGE value="this is my first touple and dict module commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="this is my first touple and dict module commit" />
+    <MESSAGE value="this is my first my last lecture on python functions" />
+    <MESSAGE value="this is my first /// https://leetcode.com/problems/evaluate-reverse-polish-notation/" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is my first /// https://leetcode.com/problems/evaluate-reverse-polish-notation/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -162,8 +183,10 @@
     <SUITE FILE_PATH="coverage/pythonProjecthandson$Swapping.coverage" NAME="Swapping Coverage Results" MODIFIED="1709666838574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProjecthandson$dict.coverage" NAME="dict Coverage Results" MODIFIED="1709738493421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProjecthandson$func.coverage" NAME="func Coverage Results" MODIFIED="1709739558111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProjecthandson$practice.coverage" NAME="practice Coverage Results" MODIFIED="1711100139707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/pythonProjecthandson$globalvar.coverage" NAME="globalvar Coverage Results" MODIFIED="1709741455712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProjecthandson$List_checking.coverage" NAME="List-checking Coverage Results" MODIFIED="1709667805289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProjecthandson$list.coverage" NAME="list Coverage Results" MODIFIED="1709669362624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProjecthandson$print.coverage" NAME="print Coverage Results" MODIFIED="1711098152491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

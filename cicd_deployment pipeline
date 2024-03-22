@@ -1,0 +1,32 @@
+pipeline {
+      agent any
+      {
+      tools
+      {
+       go ''
+       }
+       environment {
+       GO111MODULE ='on'
+       }
+       stages {
+        stage('Test')
+        {
+         steps
+         {
+          git ''
+          sh 'go test./...'
+       }
+       }
+       stage('Build'
+       {
+        steps {
+        git ''
+        sh 'go build'
+        }}
+        stage('Run')
+        {
+        steps
+        {
+         sh ' cd '
+         }
+         }
